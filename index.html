@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise 42</title>
+	<link rel="icon" href="ressources/icone/icon.ico" type="image/x-icon">
+
+	
+    <link rel="stylesheet" href="styles.css"  href="ressources/icone/icon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+		<div class="bg-img">
+		  <div class="container">
+			<div class="topnav">						  
+			  <button class="btn success"><a href="">Home</a></button>
+			  <button class="btn info"><a href="#equipe">Equipe</a></button>
+			  <button class="btn danger"><a href="#about">About</a></button>
+			  <button class="btn warning"><a href="#contact">Contact</a></button>
+			</div>
+		  </div>
+		  
+		  <div style = " text-align: center;">
+			<img src = "ressources/images/Logo.png" alt = "Logo" style = "width:90%;">
+		  </div>
+		  
+		</div>
+    </header>
+	
+
+    <main>
+
+        <section id="equipe">
+            <h1><code>Notre équipe :</code></h1>
+
+			<p>Chez 42, chaque membre de notre équipe joue un rôle essentiel dans la création d'expériences vidéoludiques inoubliables.</p> 
+			<p>Animés par une passion commune pour l'innovation et le jeu, nous combinons créativité, expertise technique et vision artistique pour donner vie à des mondes immersifs. </p> 
+			<p>Découvrez les talents uniques qui rendent tout cela possible !</p>
+
+			<blockquote>
+			  <p>"Créer des jeux, c'est créer des rêves que l'on peut explorer."</p>
+			</blockquote>
+			</br>
+			<div class="Carte_Equipe">
+				<div class="flip-card">
+				  <div class="flip-card-inner">
+					<div class="flip-card-front">
+					  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+					  <h1>Personne 1</h1>
+					  <p>Job</p>
+					  <p>Phrase</p>
+					</div>
+				  </div>
+				</div>
+				
+				<div class="flip-card">
+				  <div class="flip-card-inner">
+					<div class="flip-card-front">
+					  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+					  <h1>Personne 2</h1>
+					  <p>Job</p>
+					  <p>Phrase</p>
+					</div>
+				  </div>
+				</div>
+				
+				<div class="flip-card">
+				  <div class="flip-card-inner">
+					<div class="flip-card-front">
+					  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+					  <h1>Personne 3</h1>
+					  <p>Job</p>
+					  <p>Phrase</p>
+					</div>
+				  </div>
+				</div>
+				
+				<div class="flip-card">
+				  <div class="flip-card-inner">
+					<div class="flip-card-front">
+					  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+					  <h1>Personne 4</h1>
+					  <p>Job</p>
+					  <p>Phrase</p>
+					</div>
+				  </div>
+				</div>
+				
+								<div class="flip-card">
+				  <div class="flip-card-inner">
+					<div class="flip-card-front">
+					  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+					  <h1>Personne 5</h1>
+					  <p>Job</p>
+					  <p>Phrase</p>
+					</div>
+				  </div>
+				</div>
+				
+				
+			</div>
+        </section>
+		
+		
+		
+		
+        <section id="about">
+            <h1><code>Nos valeurs :</code></h1>
+            <p>Voici les valeurs de notre entreprise :</p>
+			<div id = "liste_valeur">
+				<div class="card">
+				  <img src="valeur_1.jpg" alt="Valeur_1" style="width:100%">
+				  <h1>Valeur n°1</h1>
+				  <p>Texte à propos de cette valeur...</p>
+				  <p><button>En savoir +</button></p>
+				</div>
+				
+				<div class="card">
+				  <img src="valeur_1.jpg" alt="Valeur_2" style="width:100%">
+				  <h1>Valeur n°2</h1>
+				  <p>Texte à propos de cette valeur...</p>
+				  <p><button>En savoir +</button></p>
+				</div>
+				
+				<div class="card">
+				  <img src="valeur_3.jpg" alt="Valeur_3" style="width:100%">
+				  <h1>Valeur n°2</h1>
+				  <p>Texte à propos de cette valeur...</p>
+				  <p><button>En savoir +</button></p>
+				</div>
+			</div>
+	
+			<p>Progression : </p>
+			<div class="container_progress">
+				  <div class="progression">17,4%</div>
+			</div>
+        </section>
+		
+    </main>
+
+	<div>
+		<footer >
+			<img src="ressources/images/Vague_footer.svg" alt="Vague_footer" style="width: 100%; height: auto;">
+			<section id="contact">
+			
+				<h2 style = "font-family: 'Poppins', sans-serif;">Contactez-nous ! </h2>
+				<form id="contactForm">
+				
+					<div style = "margin-right:90px;">
+						<label for="name"> Nom :</label>
+						<input type="text" id="name" name="name" required>
+					</div>
+
+				
+					<div>
+						<label for="email"> Email :</label>
+						<input type="email" id="email" name="email" required>
+						<button type="submit" class = "submit">Envoyer</button>
+					</div>
+					
+				</form>
+				</br>
+
+				
+				<div id = "nos_reseaux">
+				
+				<h5 style = "font-family: 'Poppins', sans-serif;">suivez nos réseaux !</h5>
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-google"></a>
+				</div>
+				
+				</br>
+				
+				<p style = "font-size:70%;">&copy; 2025 Entreprise 42. Tous droits réservés.</p>
+			</section>
+		</footer>
+	</div>
+	
+    <script src="script.js"></script>
+</body>
+</html>

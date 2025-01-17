@@ -1,0 +1,395 @@
+/*______________________Partie majeur____________________________*/
+header{
+	background-color: #EC5BDB;
+}
+
+body {
+  place-content: center;
+
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+	
+	background-size: cover; 
+	background-color: #EC5BDB;
+	height: 200px;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+
+}
+
+/*______________________Contact____________________________*/
+
+#contact{
+	background-color: #EC5BDB;
+}
+
+#contactForm{
+	display: flex;
+    flex-direction: column; /* Les éléments sont alignés en colonne */
+    gap: 10px; /* Espace entre les box */
+}
+
+#contact .submit {
+  background-color: #04AA6D;
+  border-radius:15px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#contact #name {
+  background-color: #1C1E30;
+  font-weight: bold; 
+  border-radius:15px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#contact #email {
+  background-color: #1C1E30;
+  font-weight: bold; 
+  border-radius:15px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#contact label{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*______________________Texte coloré____________________________*/
+
+:root {
+  --color-primary: hsl(310, 100%, 65%);
+  --color-secondary: hsl(160, 100%, 65%);
+  --background: hsl(230, 30%, 15%);
+  --text: hsl(310, 100%, 95%);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--background);
+  -webkit-text-fill-color: var(--background);
+}
+
+
+
+
+h1 {
+  color: var(--color-primary);
+}
+
+blockquote {
+  border-left: 5px solid;
+  margin-left: 0;
+  padding: 1rem 0 1rem 2rem;
+  font-size: 2rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    35deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+
+  p {
+    margin: 0;
+  }
+}
+
+/*________________________________Bannière______________________________________*/
+
+
+
+    img {
+      width: 100%; /* L'image occupe toute la largeur disponible */
+      height: auto; /* Conserve les proportions */
+    }
+
+/*______________________________Navigation______________________________________*/
+
+
+.bg-img {
+  /* "https://img.goodfon.com/original/4096x2304/7/6a/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-35.jpg"*/
+  background-image: url("ressources/images/vague_header.svg");
+	
+  background-color:#EC5BDB;
+  height: auto;
+
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: fixed; /* Fixe la barre en haut */
+  top: 0; /* Position en haut */
+  left: 0;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  border-radius:30px;
+  background-color: hsla(0, 2%, 50%, 0.3); /* Rouge à 30% de transparence */
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/*[ bouton (navigation) ]*/
+.btn {
+  border: 2px solid black;
+  background-color: Transparent;
+  border-radius: 10px;
+  border-color:Transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  color: green;
+}
+
+.success:hover {
+  background:  #EC5BDB;
+  color: #EC5BDB;
+}
+
+/* Blue */
+.info {
+  color: dodgerblue
+}
+
+.info:hover {
+  background:  #EC5BDB;
+  color: #EC5BDB;
+}
+
+/* Orange */
+.warning {
+  color: orange;
+}
+
+.warning:hover {
+  background:  #EC5BDB;
+  color: #EC5BDB;
+}
+
+/* Red */
+.danger {
+  color: #EC5BDB
+}
+
+.danger:hover {
+  background:  #EC5BDB;
+  color: #EC5BDB;
+}
+
+/* Gray */
+.default {
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+
+
+/*______________________Carte qui tourne____________________________*/
+
+
+
+.flip-card {
+  background-color: purple;
+  border: 5px solid transparent;
+  width: 300px;
+  height: 200px;
+  margin:5px;
+  border: 1px solid #f1f1f1;
+  
+}
+
+/* Elements carte */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+}
+
+/* Retournement de la carte */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+
+}
+
+/* Position */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+  
+}
+
+/*Avant de la carte*/
+.flip-card-front {
+  background-color: Transparent;
+  color: black;
+  
+}
+
+/* Arrière de la carte*/
+.flip-card-back {
+  background-color: #e3325c;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.Carte_Equipe {
+  padding :10px;
+  
+  background-color: hsla(0, 2%, 50%, 0.3);
+  border-radius:30px;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*_____________________Barre de progression_____________*/
+
+* {box-sizing:border-box}
+
+.container_progress {
+  width: 100%; 
+  background-color: #ddd; 
+  border-width :1px;
+  border-radius:150px;
+}
+
+
+.progression {
+	width: 17.4%; 
+	background-color: #04AA6D;
+	border-radius: 150px;
+	text-align:center;
+	} 
+
+/*_____________________Carte de nos valeurs_________________*/
+
+#liste_valeur{
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  max-width: 300px;
+  margin: 5px;
+  text-align: center;
+  font-family: arial;
+  border-radius : 10px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*_________________icônes pour les réseaux__________________*/
+
+.fa {
+
+  padding-left:2px;
+  padding-right: 2px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  font-size: 70px;
+  width: 70px;
+  
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+#nos_reseaux {
+  display:flex;
+  place-content: center;
+  align-items:center;
+  border-radius:30px;
+  background: #1C1E30;
+  color:  #EC5BDB;
+}
+
+#nos_reseaux p {
+	font-family: 'Poppins', sans-serif;
+	font-size:75%;
+	padding-left:30px;
+}
+
