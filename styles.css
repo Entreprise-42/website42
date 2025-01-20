@@ -135,6 +135,11 @@ blockquote {
 
 /*______________________________Navigation______________________________________*/
 
+@media screen and (max-width: 650px) {
+  .topnav  {
+    width: 30%;
+  }
+}
 
 .bg-img {
   /* "https://img.goodfon.com/original/4096x2304/7/6a/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-35.jpg"*/
