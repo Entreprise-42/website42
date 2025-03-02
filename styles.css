@@ -153,7 +153,9 @@ blockquote {
     .topnav {
 		flex-wrap: wrap;
         width: auto;
-        font-size: 16px;
+        font-size: 10px;
+		display:block;
+
     }
 
     .topnav a {
@@ -288,13 +290,13 @@ blockquote {
 /* Style de chaque membre */
 .team-member {
   background-color: #f4aded;
-      display: flex; /* Active Flexbox */
+    display: flex; /* Active Flexbox */
     align-items: center; /* Centre verticalement l'image et le texte */
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: auto;
     padding: 10px;
-	margin :20px;	
+	margin :10px;	
 }
 
 /* Image */
@@ -312,7 +314,6 @@ blockquote {
 	color : #1C1E30;
 	margin-top: 0;
     margin: 10px 0 5px;
-    font-size: 1.5em;
 }
 
 .member-info p {
@@ -406,7 +407,7 @@ blockquote {
   display:flex;
   place-content: center;
   align-items:center;
-  border-radius:30px;
+  border-radius:50px;
   background: #1C1E30;
   color:  #EC5BDB;
 }
