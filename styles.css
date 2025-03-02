@@ -64,6 +64,24 @@ footer {
   border: none;
   cursor: pointer;
   opacity: 0.9;
+  margin-right:90px;
+}
+
+@media screen and (max-width: 500px) {
+	
+  #contact #name {
+  background-color: #1C1E30;
+  font-weight: bold; 
+  border-radius:15px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  margin-right:0px;
+}
+
 }
 
 #contact #email {
@@ -131,7 +149,7 @@ blockquote {
 
 /*______________________________Navigation______________________________________*/
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 500px) {
     .topnav {
 		flex-wrap: wrap;
         width: auto;
