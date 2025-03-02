@@ -295,7 +295,8 @@ blockquote {
 
 /* Style de chaque membre */
 .team-member {
-  background-color: #f4aded;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f4aded;
     border-radius: 15px; /* Bordures arrondies */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
     width: 300px; /* Largeur fixe pour chaque cadre */
@@ -318,6 +319,8 @@ blockquote {
 
 /* Style des informations */
 .member-info h2 {
+	background-color:#FF4CE1;
+	border-radius:5px;
 	color : #1C1E30;
     margin: 10px 0 5px;
 }
@@ -326,7 +329,9 @@ blockquote {
 	margin-top: 0;
 	flex: 1; 
     margin: 0;
-    color: #777;
+    color: #ffffff;
+	background-color:#1C1E30;
+	border-radius:5px;
 }
 
 /* Agrandit légèrement au survol */
