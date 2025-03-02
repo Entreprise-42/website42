@@ -159,11 +159,11 @@ blockquote {
     }
 
     .topnav a {
-        padding: 5px;
+        padding: 2px;
     }
 
     .topnav .btn {
-        padding: 5px;
+        padding: 2px;
     }
 
     .topnav .btn a span {
@@ -291,8 +291,7 @@ blockquote {
 
 }
 
-	
-}
+
 
 /* Style de chaque membre */
 .team-member {
