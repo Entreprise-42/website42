@@ -149,7 +149,7 @@ blockquote {
 
 /*______________________________Navigation______________________________________*/
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 1000px) {
     .topnav {
 		flex-wrap: wrap;
         width: auto;
@@ -298,7 +298,7 @@ blockquote {
 	border-width:10px;
 	border-color:#1C1E30;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    width: auto;
+    width: 30%;
 	margin:10px;
 	padding:30px;
 }
@@ -346,7 +346,7 @@ blockquote {
 
 
 .progression {
-	width: 17.4%; 
+	width: 25.4%; 
 	background-color: #04AA6D;
 	border-radius: 150px;
 	text-align:center;
