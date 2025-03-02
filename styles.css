@@ -149,7 +149,7 @@ blockquote {
 
 /*______________________________Navigation______________________________________*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
     .topnav {
 		flex-wrap: wrap;
         width: auto;
@@ -284,7 +284,9 @@ blockquote {
 /* Style de la liste */
 .team-list {
     list-style-type: none; 
-    display: block;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
 }
 
 /* Style de chaque membre */
@@ -293,10 +295,12 @@ blockquote {
     display: flex; /* Active Flexbox */
     align-items: center; /* Centre verticalement l'image et le texte */
     border-radius: 15px;
+	border-width:10px;
+	border-color:#1C1E30;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: auto;
-    padding: 10px;
-	margin :10px;	
+	margin:10px;
+	padding:30px;
 }
 
 /* Image */
