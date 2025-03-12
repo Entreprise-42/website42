@@ -361,6 +361,53 @@ blockquote {
 	border-radius: 150px;
 	text-align:center;
 	} 
+	
+/*_________________Lien vers les projets__________________*/
+
+.LinkProject{
+	text-align:center;
+	margin: 20px;
+}
+
+.button {
+  border-radius: 15px;
+  background-color: #FF4CE1;
+  border: none;
+  color: #1C1E30;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 325px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 /*_____________________Carte de nos valeurs_________________*/
 
