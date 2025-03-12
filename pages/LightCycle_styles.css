@@ -21,23 +21,9 @@ body {
   color: var(--text);
 }
 
-
-
-@media screen and (max-width: 1000px){
-h1 {
-  background:var(--color-primary);
-  border: none;
-  color:var(--background);
-  padding: 10px 20px;
-  display: inline-block;
-  font-weight: 600;
-  margin-left:5%;
-  width: 90%;
-  text-transform: uppercase;
-  transform: skew(21deg);
-  
-   font-size: 23px;
-   font-weight: 500px;
+@media only screen and (max-width: 767px) {
+	h1{
+		 width: 75%;
 	}
 }
 
