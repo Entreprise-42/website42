@@ -1,5 +1,15 @@
 /*______________________Partie majeur____________________________*/
 
+* {box-sizing:border-box}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
 body {
   place-content: center;
 
@@ -11,28 +21,26 @@ body {
   color: var(--text);
 }
 
+/* From Uiverse.io by mrhyddenn */ 
 h1 {
-text-align: center;
-    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
-    text-transform: uppercase;
-	background-color:#ff0a6c;
-	color:#293742;
-
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    grid-template-rows: 15px 1;
-    grid-gap: 20px;
-    align-items: center;
+  background:var(--color-primary);
+  border: none;
+  color:var(--background);
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-left:5%;
+  width: 50%;
+  text-transform: uppercase;
+  transform: skew(21deg);
+  
+   font-size: 23px;
+   font-weight: 500px;
 }
 
- h1:after, h1:before {
-    content: " ";
-    display: block;
-    border-bottom: 1px solid #293742;
-    border-top: 1px solid #293742;
-	background-color:#293742;
+p {
+	margin :10px;
 }
-
 
 
 /*___________________________Arrière plan____________________________*/
@@ -89,16 +97,23 @@ blockquote {
 
 /*___________________________Sommaire____________________________*/
 
+nav {
+	display :flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
 .SommaryButton a{
   display: block;
-  width: 65%;
+  width: 200px;
   height: 40px;
   line-height: 40px;
   font-size: 18px;
   font-family: sans-serif;
   text-decoration: none;
-  color: #FBE6F9;
-  border: 2px solid #333;
+  color: #333;
+  border: 2px solid   var(--color-primary);
+  
   letter-spacing: 2px;
   text-align: center;
   position: relative;
@@ -107,35 +122,21 @@ blockquote {
 }
 
 .SommaryButton a span{
-  font-weight: bold;
   position: relative;
   z-index: 2;
-  padding-left:200px;
+  color: #ff0a6c;
+
 }
 
-.SommaryButton a:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #ff003b;
-  transition: all .35s;
-}
+
 
 .SommaryButton a:hover{
-  color: #fff;
-}
-
-.SommaryButton a:hover:after{
-  width: 100%;
+  background-color: #fff;
 }
 
 /*___________________________Galerie d'image____________________________*/
 
 div.gallery {
-	align:center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
