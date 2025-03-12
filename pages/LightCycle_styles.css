@@ -1,0 +1,159 @@
+/*______________________Partie majeur____________________________*/
+
+body {
+  place-content: center;
+
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h1 {
+text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+	background-color:#ff0a6c;
+	color:#293742;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 15px 1;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+ h1:after, h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #293742;
+    border-top: 1px solid #293742;
+	background-color:#293742;
+}
+
+
+
+/*___________________________Arrière plan____________________________*/
+
+
+.bg-img {
+  /* "https://img.goodfon.com/original/4096x2304/7/6a/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-35.jpg"*/
+  background-image: url("../ressources/images/llline.svg");
+	
+
+  height: auto;
+
+
+  /* Centre l'image */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*___________________________Texte coloré____________________________*/
+
+:root {
+  --color-primary: hsl(336, 100%, 52%);
+  --color-secondary: hsl(160, 100%, 65%);
+  --background: hsl(206, 23%, 21%);
+  --text: hsl(310, 100%, 95%);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--background);
+  -webkit-text-fill-color: var(--background);
+}
+
+
+
+blockquote {
+  border-left: 5px solid;
+  margin-left: 0;
+  padding: 1rem 0 1rem 2rem;
+  font-size: 2rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    35deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+
+  p {
+    margin: 0;
+  }
+}
+
+/*___________________________Sommaire____________________________*/
+
+.SommaryButton a{
+  display: block;
+  width: 65%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #FBE6F9;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+
+}
+
+.SommaryButton a span{
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  padding-left:200px;
+}
+
+.SommaryButton a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+.SommaryButton a:hover{
+  color: #fff;
+}
+
+.SommaryButton a:hover:after{
+  width: 100%;
+}
+
+/*___________________________Galerie d'image____________________________*/
+
+div.gallery {
+	align:center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+  float: left;
+  width: 250px;
+}
+
+div.gallery img {
+  border-radius:10px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}

@@ -6,45 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mon Premier Site Web</title>
     <meta name="description" content="Une description courte de mon site web">
-    <link rel="stylesheet" href="styles.css"> <!-- Lien vers un fichier CSS externe -->
+    <link rel="stylesheet" href="LightCycle_styles.css"> <!-- Lien vers un fichier CSS externe -->
 </head>
+
+<div class="bg-img">
 <body>
+
     <header>
-        <h1>Bienvenue sur mon site web</h1>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
+		
+		 <div style = " text-align: center;">
+			<img src = "../ressources/images/LightCycle_Logo.svg" alt = "Logo" style = "width:90%;">
+		 </div>
+	
+		
+		<nav>
+				<div class="SommaryButton">
+				  <a href="#description"><span>Description</span></a>
+				</div>
+				
+				<div class="SommaryButton">
+				  <a href="#galerie"><span>Galerie</span></a>
+				</div>
+				
+				<div class="SommaryButton">
+				  <a href="#telechargement"><span>Téléchargement</span></a>
+				</div>
+		</nav>
+
+
+		
+    </header>				
+
 
     <main>
-        <section id="accueil">
-            <h2>Accueil</h2>
-            <p>Ceci est la section d'accueil de mon site web.</p>
+
+        <section id="description">
+            <h1>Description</h1>
+            <p>Une brève description du jeu</p>
         </section>
 
-        <section id="apropos">
-            <h2>À propos</h2>
-            <p>Une brève description de moi ou de mon entreprise.</p>
-        </section>
+        <section id="galerie">
+            <h1>Galerie</h1>
+            <p>Une galerie d'image sur le jeu</p>
+			<div class="gallery">
+				  <a target="_blank" href="../ressources/images/noimage.jpg">
+					<img src="../ressources/images/noimage.jpg" alt="image1" width="600" height="400">
+				  </a>
+				  <!--<div class="desc"></div>-->
+			</div>
 
-        <section id="services">
-            <h2>Services</h2>
-            <p>Les services que je propose.</p>
-        </section>
+			<div class="gallery">
+				  <a target="_blank" href="../ressources/images/noimage.jpg">
+					<img src="../ressources/images/noimage.jpg" alt="image2" width="600" height="400">
+				  </a>
+				  <!--<div class="desc"></div>-->
+			</div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Comment me contacter.</p>
+			<div class="gallery">
+				  <a target="_blank" href="../ressources/images/noimage.jpg">
+					<img src="../ressources/images/noimage.jpg" alt="image3" width="600" height="400">
+				  </a>
+				  <!--<div class="desc"></div>-->
+			</div>
+
+			<div class="gallery">
+				  <a target="_blank" href="noimage.jpg">
+					<img src="../ressources/images/noimage.jpg" alt="image4" width="600" height="400">
+				  </a>
+				  <!--<div class="desc"></div>-->
+			</div>
+        </section>
+		
+		</br></br></br></br></br></br></br></br></br></br>
+
+        <section id="telechargement">
+            <h1>Téléchargement</h1>
+            <p>Télécharger notre jeu !</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Mon Premier Site Web. Tous droits réservés.</p>
+		<p style = "font-size:70%;">&copy; 2025 Entreprise 42. Tous droits réservés.</p>
     </footer>
+	
 </body>
+</div>
 </html>
