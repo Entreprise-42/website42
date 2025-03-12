@@ -21,7 +21,26 @@ body {
   color: var(--text);
 }
 
-/* From Uiverse.io by mrhyddenn */ 
+
+
+@media screen and (max-width: 1000px){
+h1 {
+  background:var(--color-primary);
+  border: none;
+  color:var(--background);
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-left:5%;
+  width: 75%;
+  text-transform: uppercase;
+  transform: skew(21deg);
+  
+   font-size: 23px;
+   font-weight: 500px;
+	}
+}
+
 h1 {
   background:var(--color-primary);
   border: none;
@@ -157,4 +176,35 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+/*___________________________Section téléchargement____________________________*/
+
+.downloadButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadButton a{
+  text-decoration: none;
+  color:#fff;
+}
+
+.downloadButton button{
+  background-color: black; 
+  border-radius:10px;
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  padding:20px;
+  margin:10px;
+  align-items: center;
+}
+
+
+.downloadButton button:hover {
+  background-color: var(--color-primary);
 }
