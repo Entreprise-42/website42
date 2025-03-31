@@ -115,8 +115,11 @@ nav {
   font-size: 18px;
   font-family: sans-serif;
   text-decoration: none;
-  color: #333;
+  color: hsl(336, 52%, 83%);
   border: 2px solid   var(--color-primary);
+  border-radius :10px;
+  margin :10px;
+  
   
   letter-spacing: 2px;
   text-align: center;
@@ -133,9 +136,8 @@ nav {
 }
 
 
-
 .SommaryButton a:hover{
-  background-color: #fff;
+  background-color: var(--text);
 }
 
 /*___________________________Galerie d'image____________________________*/
