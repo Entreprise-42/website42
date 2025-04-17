@@ -31,6 +31,10 @@ footer {
 	color: #fff;
 }
 
+p{
+	font-family: 'open-sans'
+}
+
 /*______________________Contact____________________________*/
 
 #contact{
@@ -105,7 +109,7 @@ footer {
 :root {
   --color-primary: hsl(310, 100%, 65%);
   --color-secondary: hsl(160, 100%, 65%);
-  --background: hsl(230, 30%, 15%);
+  --background: hsl(234, 25%, 15%);
   --text: hsl(310, 100%, 95%);
 }
 

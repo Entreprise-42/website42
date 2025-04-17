@@ -1,5 +1,4 @@
 /*______________________Partie majeur____________________________*/
-
 * {box-sizing:border-box}
 
 main {
@@ -26,6 +25,19 @@ body {
 		 width: 75%;
 	}
 }
+
+/* ____Typo de LightCycle*_____*/
+@font-face {
+  font-family: 'TypoTexte';
+  src: url('fonts/TypoTexteLightCycle.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TypoTitre';
+  src: url('fonts/Laserian.ttf') format('truetype');
+}
+/* _____________________________*/
+
 
 h1 {
   background:var(--color-primary);
@@ -68,9 +80,9 @@ p {
 /*___________________________Texte coloré____________________________*/
 
 :root {
-  --color-primary: hsl(336, 100%, 52%);
+  --color-primary: hsl(354, 70%, 50%);
   --color-secondary: hsl(160, 100%, 65%);
-  --background: hsl(206, 23%, 21%);
+  --background: hsl(211, 53%, 29%);
   --text: hsl(310, 100%, 95%);
 }
 
@@ -115,7 +127,7 @@ nav {
   font-size: 18px;
   font-family: sans-serif;
   text-decoration: none;
-  color: hsl(336, 52%, 83%);
+  color: hsl(92, 66%, 49%);
   border: 2px solid   var(--color-primary);
   border-radius :10px;
   margin :10px;
