@@ -31,9 +31,27 @@ footer {
 	color: #fff;
 }
 
-p{
-	font-family: 'open-sans'
+/* ____Typo de l'entreprise*_____*/
+@font-face {
+  font-family: 'TypoTexte';
+  src: url('ressources/typo/Ubuntu.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'TypoTitre';
+  src: url('ressources/typo/Workbench.ttf') format('truetype');
+}
+/* _____________________________*/
+
+p{
+	font-family: 'TypoTexte',arial;
+}
+
+code {
+	font-family: 'TypoTitre',arial;
+}
+
+
 
 /*______________________Contact____________________________*/
 
@@ -218,6 +236,8 @@ blockquote {
   text-align: center;
   text-decoration: none;
   font-size: 25px;
+  		font-family:'TypoTexte',arial;
+
 }
 
 /*[ bouton (navigation) ]*/
@@ -299,7 +319,7 @@ blockquote {
 
 /* Style de chaque membre */
 .team-member {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'TypoTexte', sans-serif;
 	background-color: #f4aded;
     border-radius: 15px; /* Bordures arrondies */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
@@ -426,7 +446,7 @@ blockquote {
   max-width: 300px;
   margin: 5px;
   text-align: center;
-  font-family: arial;
+  font-family: 'TypoTexte', arial;
   border-radius : 10px;
   background-color: #f4aded;
 }
