@@ -29,12 +29,12 @@ body {
 /* ____Typo de LightCycle*_____*/
 @font-face {
   font-family: 'TypoTexte';
-  src: url('fonts/TypoTexteLightCycle.ttf') format('truetype');
+  src: url('../ressources/typo/PushPinsBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'TypoTitre';
-  src: url('fonts/Laserian.ttf') format('truetype');
+  src: url('../ressources/typo/Laserian.ttf') format('truetype');
 }
 /* _____________________________*/
 
@@ -47,16 +47,28 @@ h1 {
   display: inline-block;
   font-weight: 600;
   margin-left:5%;
-  width: 50%;
+  width: 70%;
   text-transform: uppercase;
   transform: skew(21deg);
   
-   font-size: 23px;
-   font-weight: 500px;
+   font-size: 17px;
 }
 
 p {
 	margin :10px;
+	font-family:'TypoTexte', sans-serif;
+	font-size:20px;
+
+}
+
+.alt-char {
+  font-family: Arial, sans-serif;
+  font-weight:600px;
+  font-style:bold;
+}
+
+code {
+	font-family:'TypoTitre';
 }
 
 
@@ -142,6 +154,7 @@ nav {
 
 .SommaryButton a span{
   position: relative;
+  font-family:'TypoTexte';
   z-index: 2;
   color: #ff0a6c;
 
