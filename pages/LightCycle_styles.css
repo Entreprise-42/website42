@@ -34,7 +34,7 @@ body {
 
 @font-face {
   font-family: 'TypoTitre';
-  src: url('../ressources/typo/Laserian.ttf') format('truetype');
+  src: url('../ressources/typo/Laserian.TTF') format('truetype');
 }
 /* _____________________________*/
 
