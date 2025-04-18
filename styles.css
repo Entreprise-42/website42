@@ -1,6 +1,5 @@
 /*______________________Partie majeur____________________________*/
 header{
-	background-color: #EC5BDB;
 }
 
 body {
@@ -23,8 +22,7 @@ section {
 }
 
 footer {
-	
-	background-size: cover; 
+
 	background-color: #EC5BDB;
 	height: 1000px;
 	text-align: center;
@@ -201,15 +199,12 @@ blockquote {
 
 .bg-img {
   /* "https://img.goodfon.com/original/4096x2304/7/6a/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-35.jpg"*/
-  background-image: url("ressources/images/vague_header.svg");
+  background-image: url("ressources/images/degrade_header.svg");
 	
-  background-color:#EC5BDB;
-  height: auto;
-
-
   /* Centre l'image */
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 300px;
+
 
 }
 
@@ -465,6 +460,17 @@ blockquote {
 
 .card button:hover {
   opacity: 0.7;
+}
+
+/*_________________Image footer_____________________________*/
+
+.img_footer{
+
+  display: block;
+  margin-bottom: -40px;
+  background: url('ressources/images/degrade_footer.svg') no-repeat center bottom;
+  background-size: cover;
+  height: 300px;
 }
 
 /*_________________icônes pour les réseaux__________________*/

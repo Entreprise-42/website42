@@ -1,0 +1,10 @@
+<svg viewBox="0 0 100 400" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <rect width="100" height="50" y="0" fill="#EC5BDB" fill-opacity="0.05" />
+  <rect width="100" height="50" y="50" fill="#EC5BDB" fill-opacity="0.1" />
+  <rect width="100" height="50" y="100" fill="#EC5BDB" fill-opacity="0.25" />
+  <rect width="100" height="50" y="150" fill="#EC5BDB" fill-opacity="0.4" />
+  <rect width="100" height="50" y="200" fill="#EC5BDB" fill-opacity="0.55" />
+  <rect width="100" height="50" y="250" fill="#EC5BDB" fill-opacity="0.7" />
+  <rect width="100" height="50" y="300" fill="#EC5BDB" fill-opacity="0.85" />
+  <rect width="100" height="50" y="350" fill="#EC5BDB" fill-opacity="1.0" />
+</svg>
