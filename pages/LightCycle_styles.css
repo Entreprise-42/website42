@@ -139,7 +139,9 @@ nav {
   font-size: 18px;
   font-family: sans-serif;
   text-decoration: none;
-  color: hsl(92, 66%, 49%);
+  color: var(--text);
+  background-color:  var(--color-primary);
+;
   border: 2px solid   var(--color-primary);
   border-radius :10px;
   margin :10px;
@@ -156,13 +158,13 @@ nav {
   position: relative;
   font-family:'TypoTexte';
   z-index: 2;
-  color: #ff0a6c;
+  color: var(--text);
 
 }
 
 
 .SommaryButton a:hover{
-  background-color: var(--text);
+  background-color: var(--background-clip);
 }
 
 /*___________________________Galerie d'image____________________________*/
