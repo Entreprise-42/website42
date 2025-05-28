@@ -233,3 +233,21 @@ nav {
 .downloadButton button:hover {
   background-color: var(--color-primary);
 }
+
+.Rapport button{
+  background-color: black; 
+  border-radius:10px;
+  border: none; 
+  color: white; 
+  font-size: 16px; 
+  cursor: pointer; 
+  padding:10px;
+  margin:5px;
+
+  align-items: center;
+}
+
+
+.Rapport button:hover {
+  background-color: var(--color-primary);
+}
